@@ -4,6 +4,6 @@ import { Controller, Get } from '@nestjs/common';
 export class AppController {
     @Get()
     home(){
-        return "Welcom to my movie API With cloud build Services";
+        return "Welcom to my movie API With cloud build Service";
     }
 }
